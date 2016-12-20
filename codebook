@@ -1,1 +1,18 @@
 
+##Store the data from the downloaded files
+xTrain, yTrain, subjectTrain, xTest, yTest, subjectTest
+
+##Used for merging
+xData, yData, subjectMerged
+
+##Merge of xData, yData, subjectMerged
+allData 
+
+##For extracting
+mean_and_std_features
+
+##Stores the names for XData. Applied to mean_and_std_features' columns
+features 
+
+##Store the averages. Utilizes colMeans through ddply
+averagesData 
